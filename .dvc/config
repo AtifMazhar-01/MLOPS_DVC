@@ -1,0 +1,4 @@
+[core]
+    remote = atifrmt
+['remote "atifrmt"']
+    url = ../S3
