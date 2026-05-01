@@ -13,3 +13,6 @@ Because initially we were tracking data/ folder from git so now we have to remov
 10. Do a git add-commit-push to mark this stage as first version of data.
 11. Now make changes to mycode..py to append a new row in data,check changes via "dvc status"
 12. Now again "dvc commit " and then "dvc push"
+13. Then git add-commit-push(We are saving version 2 of our data at this point)
+14. Check dvc/git status,everything should be up to date.
+15. Now repeat the step 11-14 for V3 of data.
