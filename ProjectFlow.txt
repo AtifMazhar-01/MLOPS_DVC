@@ -16,3 +16,7 @@ Because initially we were tracking data/ folder from git so now we have to remov
 13. Then git add-commit-push(We are saving version 2 of our data at this point)
 14. Check dvc/git status,everything should be up to date.
 15. Now repeat the step 11-14 for V3 of data.
+
+git log --oneline
+git checkout <hash> -git checkout master
+dvc pull
